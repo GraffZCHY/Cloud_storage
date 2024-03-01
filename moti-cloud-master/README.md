@@ -1,8 +1,7 @@
 # My-cloud
 
 ### Attention
-
-拉取项目到本地后，你需要修改一下配置信息
+After pulling the project to the local location, you need to modify the configuration information
 
 - `application.yml`：Modify data source information and email server information
 - `config.DruidConfig`：Change the username and password for Druid login
