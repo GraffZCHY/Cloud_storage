@@ -151,7 +151,7 @@ public class FtpUtil {
                 return result;
             };
             // 转移到FTP服务器目录
-            ftp.changeWorkingDirectory(remotePath);
+             ftp.changeWorkingDirectory(BASEPATH + remotePath);
             ftp.enterLocalPassiveMode();
             FTPFile[] fs = ftp.listFiles();
             for (FTPFile ff : fs) {
